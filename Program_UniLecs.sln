@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program_UniLecs", "Program_UniLecs\Program_UniLecs.csproj", "{686EDA2A-6962-41F9-A173-4BAFC9E96024}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{062F42C0-D11C-45F7-ADD8-49696EADD6AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{686EDA2A-6962-41F9-A173-4BAFC9E96024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{686EDA2A-6962-41F9-A173-4BAFC9E96024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{686EDA2A-6962-41F9-A173-4BAFC9E96024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062F42C0-D11C-45F7-ADD8-49696EADD6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062F42C0-D11C-45F7-ADD8-49696EADD6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062F42C0-D11C-45F7-ADD8-49696EADD6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062F42C0-D11C-45F7-ADD8-49696EADD6AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
