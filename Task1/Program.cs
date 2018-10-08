@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+//Задача: написать функцию, ктр проверяет все ли символы в строке встречаются один раз.
 
 namespace Task1 {
     class Program {
