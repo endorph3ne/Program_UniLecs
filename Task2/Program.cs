@@ -15,9 +15,10 @@
 namespace Task2 {
     class Program {
         static void Main(string[] args) {
-            int[] array = { 8, 9, 10, 12, 13, 14, 15, 2, 3, 4, 5, 6, 7 };
+            int[] array = { 8, 9, 10, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7 };
 
-            int result = GetMinItemInCyclicallySortedArray(array);
+            Console.WriteLine(GetMinItemInCyclicallySortedArray(array));
+            Console.Read();
         }
 
         static int GetMinItemInCyclicallySortedArray(int[] array) {
@@ -30,13 +31,16 @@ namespace Task2 {
             int start = 0;
             int end = array.Length - 1;
 
+
             while (end - start > 1) {
                 double middleFloat = (double)(start + end) / 2;
                 int middle = (int)Math.Round(middleFloat);
 
+                // if we found min element in the first part of array
                 if (array[start] > array[middle])
                     end = middle;
 
+                // if we found min element in the second part of array
                 if (array[middle] > array[end])
                     start = middle;
             }
