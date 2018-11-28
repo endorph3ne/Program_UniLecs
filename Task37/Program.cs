@@ -14,7 +14,6 @@
 namespace Task37 {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("UniLecs");
             Console.WriteLine(GetNumberOfUsers(2, 4, 7, 3)); // 28
             Console.WriteLine(GetNumberOfUsers(2, 2, 2, 3)); // -1
         }
