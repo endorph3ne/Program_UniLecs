@@ -25,6 +25,10 @@ namespace Task5 {
         static bool CheckStringAsPalindrome(string inputString) {
             Dictionary<char, int> hashSymbolMap = new Dictionary<char, int>();
 
+            // строку из 1го символа будем считать палиндромом
+            if (inputString.Length == 1)
+                return true;
+
             for (int i = 0; i < inputString.Length; i++) {
                 char currentChar = inputString[i];
 
@@ -41,7 +45,10 @@ namespace Task5 {
                     oddSymbolsCount++;
             }
 
-            return oddSymbolsCount % 2 == 1 || oddSymbolsCount == 0;
+            //строку можно сделать палиндромом если:
+            //  1. количество нечетных символов == 1, если длина строки нечетная
+            //  2. количество нечетных символов == 0, если длина строки четная
+            return oddSymbolsCount == 1 || oddSymbolsCount == 0;
         }
     }
 }
